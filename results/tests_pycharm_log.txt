@@ -1,0 +1,19 @@
+test_array_unchanged (test_variant8.TestVariant8.test_array_unchanged) ... ok
+test_bad_domain (test_variant8.TestVariant8.test_bad_domain) ... ok
+test_bad_n (test_variant8.TestVariant8.test_bad_n) ... ok
+test_boundary_scalar (test_variant8.TestVariant8.test_boundary_scalar) ... ok
+test_bounds (test_variant8.TestVariant8.test_bounds) ... ok
+test_chord_bad_order (test_variant8.TestVariant8.test_chord_bad_order) ... ok
+test_chord_bad_shapes (test_variant8.TestVariant8.test_chord_bad_shapes) ... ok
+test_fine_grid_lower_deviation (test_variant8.TestVariant8.test_fine_grid_lower_deviation) ... ok
+test_formula_control_a (test_variant8.TestVariant8.test_formula_control_a) ... ok
+test_formula_control_b (test_variant8.TestVariant8.test_formula_control_b) ... ok
+test_formula_control_c (test_variant8.TestVariant8.test_formula_control_c) ... ok
+test_immutable_result_valid (test_variant8.TestVariant8.test_immutable_result_valid) ... ok
+test_no_gaps (test_variant8.TestVariant8.test_no_gaps) ... ok
+test_vector_matches_scalar (test_variant8.TestVariant8.test_vector_matches_scalar) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.011s
+
+OK

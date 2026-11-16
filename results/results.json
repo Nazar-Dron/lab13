@@ -1,0 +1,56 @@
+{
+  "variant": 8,
+  "formula": "5*sin(10*x)*sin(3*x)/sqrt(x)",
+  "interval": [
+    1.0,
+    7.0
+  ],
+  "python": "3.15.2",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "backend": "Agg",
+  "grids": [
+    {
+      "n": 1201,
+      "step": 0.004999999999999893,
+      "finite": 1201,
+      "NaN": 0,
+      "chord_deviation": 0.0013296022449811318,
+      "xmin": 1.0,
+      "xmax": 7.0
+    },
+    {
+      "n": 2401,
+      "step": 0.0024999999999999467,
+      "finite": 2401,
+      "NaN": 0,
+      "chord_deviation": 0.0003325067027848405,
+      "xmin": 1.0,
+      "xmax": 7.0
+    }
+  ],
+  "control_points": [
+    {
+      "x_name": "3π/4",
+      "x": 2.356194490192345,
+      "expected": -2.3032943298089035,
+      "actual": -2.3032943298089026,
+      "abs_difference": 8.881784197001252e-16
+    },
+    {
+      "x_name": "5π/4",
+      "x": 3.9269908169872414,
+      "expected": -1.784124116152771,
+      "actual": -1.7841241161527734,
+      "abs_difference": 2.4424906541753444e-15
+    },
+    {
+      "x_name": "7π/4",
+      "x": 5.497787143782138,
+      "expected": 1.5078600877302688,
+      "actual": 1.507860087730269,
+      "abs_difference": 2.220446049250313e-16
+    }
+  ],
+  "curve_data_for_lab14": "data/curve_data.npz"
+}
